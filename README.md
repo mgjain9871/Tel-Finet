@@ -35,8 +35,8 @@ THAT’S HOW WE HAVE KILLED THE CLICHÉ AND JUSTIFIED THE THEME OF “THE CODEJA
 <p align="center">
     <img src=images/b.jpg height=200>
 </p>
-- Upon clicking the search button...
-- Voilà You have stats of all the telecom service provider in that Sector you searched for.. (to be implemented)
+Upon clicking the search button...
+Voilà You have stats of all the telecom service provider in that Sector you searched for.. (to be implemented)
 <p align="center">
     <img src=images/e.jpg height=200>
 </p>
@@ -54,7 +54,7 @@ THAT’S HOW WE HAVE KILLED THE CLICHÉ AND JUSTIFIED THE THEME OF “THE CODEJA
 <p align="center">
     <img src=images/c.jpg height=200>
 </p>
-- You can reach us by means of  Contact Form provided at the end.
+You can reach us by means of  Contact Form provided at the end.<p></p>
 <p align="center">
     <img src=images/d.jpg height=200>
 </p>
@@ -63,16 +63,16 @@ THAT’S HOW WE HAVE KILLED THE CLICHÉ AND JUSTIFIED THE THEME OF “THE CODEJA
 
 Languages Used : 
 - HTML
-- CSS ("Cascading Style Sheets")
+- CSS
+- Javascript
 
 Resources :
 - Visual studio Code (IDE)
 - Supabase 
-- Adobe Photoshop
 
 
 
-## Forthcoming
+## Future Endeavours
 - We have plans on expanding the scope of this project throughout India. #madeinINDIA
 - Providing most efficient and accurate information to you.
 - Information regarding network towers in that area.
