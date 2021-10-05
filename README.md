@@ -1,6 +1,6 @@
 # TEL-FINET
 <p align="center">
-    <img src=/images/a.jpg height=200>
+    <img src=images/a.jpg height=200>
 </p>
 
 
@@ -33,12 +33,12 @@ THAT’S HOW WE HAVE KILLED THE CLICHÉ AND JUSTIFIED THE THEME OF “THE CODEJA
 
 - Enter Sector number (of which you want to gather intel about) in the searchbox provided.
 <p align="center">
-    <img src=images/b.jpeg height=200>
+    <img src=images/b.jpg height=200>
 </p>
 - Upon clicking the search button...
 - Voilà You have stats of all the telecom service provider in that Sector you searched for.. (to be implemented)
 <p align="center">
-    <img src=images/e.jpeg height=200>
+    <img src=images/e.jpg height=200>
 </p>
 
 
@@ -52,11 +52,11 @@ THAT’S HOW WE HAVE KILLED THE CLICHÉ AND JUSTIFIED THE THEME OF “THE CODEJA
 - Scroll a little and you will find the most popular speedtesting servers.
 - While registering, the user is asked about his/her location details and the service they use.
 <p align="center">
-    <img src=images/c.jpeg height=200>
+    <img src=images/c.jpg height=200>
 </p>
 - You can reach us by means of  Contact Form provided at the end.
 <p align="center">
-    <img src=images/d.jpeg height=200>
+    <img src=images/d.jpg height=200>
 </p>
 
 ## Development 
@@ -79,3 +79,9 @@ Resources :
 
 ## About Us
 Team  : *Prickly Poppins*
+
+- [mgjain9871](https://github.com/mgjain9871)
+
+- [kaizoku01](https://github.com/kaizoku01)
+
+- [primegime](https://github.com/primegime)

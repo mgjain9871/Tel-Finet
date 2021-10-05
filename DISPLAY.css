@@ -1,0 +1,30 @@
+body{
+	background-size: 280%;
+	background-position: -400px 0px;
+    color: white;
+    opacity: 0.7;
+    background-color: rgb(233, 231, 227);
+}
+table,th,td{
+    width: 80%;
+    margin: auto;
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 30px;
+    table-layout: fixed;
+    opacity: 0.7;
+    margin-top: 100px;
+}
+th,td{
+    padding: 20px;
+    opacity: 0.9;
+    background: rgb(0, 0, 0);
+
+}
+th{
+    background-color: rgba(0,0,0,0.5);
+}
+td:hover{
+    background-color: rgb(129, 133, 128)
+}

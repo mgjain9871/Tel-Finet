@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETWORKING</title>
+    <link href="NETWORK.css" rel="stylesheet" type="text/css">
+    <script src="https://unpkg.com/@supabase/supabase-js"></script>
+</head>
+<body>
+    <script>
+        const { createClient } = supabase
+        // Create a single supabase client for interacting with your database 
+        // const supabase = createClient("https://xyzcompany.supabase.co", "public-anon-key")
+        const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYzMzM4MTY3NiwiZXhwIjoxOTQ4OTU3Njc2fQ.dIFq0t7cC0RGXRYzOFF4d73DzdhX8vab9g7nnbNhJNY'
+        const SUPABASE_URL = "https://dcvrikpnwhicueynlzub.supabase.co"
+
+        const cli = createClient(SUPABASE_URL,SUPABASE_KEY);
+
+        cli
+        .from('stats')
+        .update({ other_column:'jio'})
+        .eq('jio', jio+1)
+        .then(res => console.log(res))
+    </script>
+
+    <div class="main">
+        <div class="register">
+            <h2>Register Here</h2>
+            <form id="register" method="post">
+                <label>First Name: </label>
+                <br>
+                <input type="text" name="fname" id="name" placeholder="Enter your first name">
+                <br><br>
+                <label>Last Name: </label>
+                <br>
+                <input type="text" name="lname" id="name" placeholder="Enter your last name">
+                <br><br>
+                <label>Email: </label>
+                <br>
+                <input type="email" name="email" id="name" placeholder="Enter your vaild email">
+                <br></br>
+                <label>Location: </label>
+                <br>
+                <input type="text" name="location" id="name" placeholder="Enter your location">
+                <br><br>
+                <label>Company: </label>
+                <br>
+                &nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="company" id="airtel">
+                &nbsp;
+                <span id="airtel">Airtel</span>
+                &nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="company" id="jio">
+                &nbsp;
+                <span id="jio">Jio</span>
+                &nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="company" id="bsnl">
+                &nbsp;
+                <span id="bsnl">BSNL</span>
+                &nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="company" id="vi">
+                &nbsp;
+                <span id="vi">VI</span>
+                &nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="company" id="other">
+                &nbsp;
+                <span id="other">Other</span>
+                <br><br>
+                <input type="submit" value="Submit" name="submit" id="submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
