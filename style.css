@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=OpenSans);
+*{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.heading {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    width: 100%;
+}
+.heading h1{
+    color: limegreen;
+    font-size: 30px;
+}
+.logo{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.logo span{
+    color: wheat;
+}
+#particles-js a{
+    text-decoration: none;
+}
+#particles-js {
+    position: relative;
+    background: black;
+    height: 100vh;
+}
+#particle-js logo span{
+    font-size: 100px;
+}
+.search_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.search_box input{
+    position:relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+    border: 1px solid #222222;
+    font-size: 1.0625rem;
+}
+.search_box input:focus{
+    outline-color: #3498db;
+}
+.search_box input[type="text"]{
+    background: white;
+    height: 50px;
+    width: 340px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+.search_box input[type="button"]{
+    position: relative;
+    border-radius: 0 25px 25px 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    background: blue;
+    left: -5px;
+}
+.search_box input[type="button"]:hover{
+    background: rgba(92, 92, 218, 0.979);
+}
+.search_box input[type="text"]:hover{
+    background: rgba(228, 226, 226, 0.952);
+}
+footer{
+    /* position:fixed; */
+    /* bottom: 0px; */
+    width: 100%;
+    background: #111;
+    color: white;
+    /* padding-left: 10%; */
+}
+.main-content{
+    display: flex;
+}
+.main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+.box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.box .content{
+    margin: 20px 0 0 0;
+}
+.left .content p{
+    text-align: justify;
+    font-weight: 500;
+}
+.left .content .social{
+    margin: 20px 0 0 0;
+}
+.left .content .social a{
+    padding: 0 2px;
+}
+.left .content .social a span{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    background: #1a1a1a;
+    line-height: 40px;
+    transition: 0.3s;
+}
+.left .content .social a span:hover{
+    background: #f12020;
+}
+.center .content .fas{
+    font-size: 1.4375rem;
+    background: #1a1a1a;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    /* cursor: pointer; */
+    transition: 0.3s;
+    border-radius: 50%;
+}
+.center .content .text{
+    font-size: 1.0625rem;
+    padding-left: 10px;
+    font-weight: 500;
+}
+.right form .text{
+    color: #656565;
+    margin-bottom: 2px;
+    font-size: 1.0625rem;
+}
+.center .content .phone{
+    margin: 10px 0;
+}
+.right from .msg{
+    margin-top: 10px;
+}
+.right form input, .right form textarea{
+    width: 100%;
+    border: 1px solid #222222;
+    padding-left: 10px;
+    background: #151515;
+    font-size: 1.0625rem;
+}
+.right form input:focus, .right form textarea:focus{
+    outline-color: #3498db;
+}
+.right form .btn{
+    margin-top: 10px;
+}
+.right form input{
+    height: 35px;
+}
+.right form .btn button{
+    height: 40px;
+    width:100%;
+    background: #fa2121;
+    outline: none;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 100%;
+    font-weight: 500;
+    color: white;
+}
+.right form .btn button:hover{
+    background: rgb(138, 132, 132);
+}
+.container{
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.bttn{
+    border: 1px solid #3498db;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: monospace;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+}
+.bttn1{
+    color: #ffffff;
+    background-color: #f81717;
+}
+.bttn1:hover{
+    color: #fff;
+    background-color: #962e2e;
+}
+.body-color{
+    background-color: rgb(121, 118, 118);
+    color: white;
+}
+.tbb{
+    color:white;
+}
+.footer-text{
+    color: white;
+}

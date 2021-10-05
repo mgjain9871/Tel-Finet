@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="DISPLAY.css">
+    <title>Document</title>
+    <script src="https://unpkg.com/@supabase/supabase-js"></script>
+</head>
+<body>
+    <script>
+        const { createClient } = supabase
+        // Create a single supabase client for interacting with your database 
+        // const supabase = createClient("https://xyzcompany.supabase.co", "public-anon-key")
+        const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYzMzM4MTY3NiwiZXhwIjoxOTQ4OTU3Njc2fQ.dIFq0t7cC0RGXRYzOFF4d73DzdhX8vab9g7nnbNhJNY'
+        const SUPABASE_URL = "https://dcvrikpnwhicueynlzub.supabase.co"
+
+        const cli = createClient(SUPABASE_URL,SUPABASE_KEY);
+
+        cli
+        .from('stats')
+        .select()
+        .eq("location",'Sector 11')
+        .then(v=>{
+            let tableRef = document.getElementById('tab');
+
+            // Insert a row at the end of the table
+            let newRow = tableRef.insertRow(-1);
+
+            // Insert a cell in the row at index 0
+            let newCell = newRow.insertCell(0);
+
+            // Append a text node to the cell
+            let newText = document.createTextNode(v.body[0].jio);
+            newCell.appendChild(newText);
+            console.log(v)
+        })
+        cli
+        .from('stats')
+        .select()
+        .eq("location",'Sector 11')
+        .then(v=>{
+            let tableRef = document.getElementById('tab');
+
+            // Insert a row at the end of the table
+            let newRow = tableRef.insertRow(-1);
+
+            // Insert a cell in the row at index 0
+            let newCell = newRow.insertCell(0);
+
+            // Append a text node to the cell
+            let newText = document.createTextNode(v.body[0].airtel);
+            newCell.appendChild(newText);
+            console.log(v)
+        })
+        cli
+        .from('stats')
+        .select()
+        .eq("location",'Sector 11')
+        .then(v=>{
+            let tableRef = document.getElementById('tab');
+
+            // Insert a row at the end of the table
+            let newRow = tableRef.insertRow(-1);
+
+            // Insert a cell in the row at index 0
+            let newCell = newRow.insertCell(0);
+
+            // Append a text node to the cell
+            let newText = document.createTextNode(v.body[0].bsnl);
+            newCell.appendChild(newText);
+            console.log(v)
+        })
+        cli
+        .from('stats')
+        .select()
+        .eq("location",'Sector 11')
+        .then(v=>{
+            let tableRef = document.getElementById('tab');
+
+            // Insert a row at the end of the table
+            let newRow = tableRef.insertRow(-1);
+
+            // Insert a cell in the row at index 0
+            let newCell = newRow.insertCell(0);
+
+            // Append a text node to the cell
+            let newText = document.createTextNode(v.body[0].vi);
+            newCell.appendChild(newText);
+            console.log(v)
+        })
+    </script>
+    <table id="tab" class="tbb">
+        <tr>
+            <th>Location</th>
+            <th>Airtel</th>
+            <th>Jio</th>
+            <th>BSNL</th>
+            <th>VI</th>
+        </tr>
+    </table>
+</body>
+</html>

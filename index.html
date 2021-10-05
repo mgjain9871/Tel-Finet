@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>OSDCODEJAM v2</title>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link rel="stylesheet" href="./style.css" />
+	<script src="https://unpkg.com/@supabase/supabase-js"></script>
+</head>
+<body>
+	<div id="particles-js">
+		<div class="logo">
+			<a href="index.html"><span><strong>Tel-Finet</strong></span></a>
+		</div>
+		<div class="heading">
+			<h1>Enter the location to find network details</h1>
+		</div>
+		<script src="particles.js-master/particles.js">
+		</script>
+		<script src="/particles.js-master/demo/js/app.js">
+		</script>
+		<div class="search_box">
+			<form>
+				<input type="text" id="loc" name="" placeholder="Enter location">
+				<a href="display.html" target="_blank"><input type="button" name="" value="Search"></a>
+			</form>
+		</div>
+	</div>
+ <style type="text/css">
+	*{
+	 margin: 0px;
+	 padding: 0px;
+	}
+	body{
+	 font-family: arial;
+	}
+	.main{
+	 padding: 2%;
+	}
+	.card{
+		 width: 20%;
+		 display: inline-block;
+		 box-shadow: 2px 2px 20px black;
+		 border-radius: 5px; 
+		 margin: 2%;
+		}
+	.image img{
+	  width: 100%;
+	  border-top-right-radius: 5px;
+	  border-top-left-radius: 5px;
+	 }
+	.title{
+	  text-align: center;
+	  padding: 10px;
+	}
+	h1{
+	  font-size: 20px;
+	}
+	.des{
+	  padding: 3px;
+	  text-align: center;
+	 
+	  padding-top: 10px;
+			border-bottom-right-radius: 5px;
+	  border-bottom-left-radius: 5px;
+	}
+	button{
+	  margin-top: 40px;
+	  margin-bottom: 10px;
+	  background-color: white;
+	  border: 1px solid black;
+	  border-radius: 5px;
+	  padding:10px;
+	}
+	button:hover{
+	  background-color: black;
+	  color: white;
+	  transition: .5s;
+	  cursor: pointer;
+	}
+	.main-head span h2{
+		text-align: center;
+		font-size: 50px;
+		color:rgb(255, 255, 255);
+		text-transform: uppercase;
+		/* background-color: #111; */
+	}
+	.main-head span h2:hover{
+		color: rgb(170, 169, 165);
+	}
+	</style>
+
+<div class="body-color">
+	<div class="main main-head">
+		<span><h2>ONLINE INTERNET SPEED TEST</h2></span>
+		<div class="card ookl"> 
+			<div class="image">
+				<img src="/images/ooklas.gif">
+			</div>
+			<div class="title">
+				<h1>OOKLA</h1>
+			</div>
+			<div class="des">
+				<p>Ookla® is the global leader in mobile and broadband network intelligence, testing applications and technology. It is a web service that provides free analysis of Internet access performance metrics, such as connection data rate and latency. It  provides a reliable, consistent test experience across devices and now performs tests via direct TCP sockets.</p>
+				<a href="https://www.speedtest.net/" target="_blank"><button>Visit</button></a>
+			</div>
+		</div>
+		<div class="card">
+			<div class="image">
+				<img src="/images/mlab.png">
+			</div>
+			<div class="title">
+				<h1>GOOGLE STADIA</h1>
+			</div>
+			<div class="des">
+				<p>Google partners with M-Lab to run this speed test. Running this test could transfer over 40 MB of data, depending on your connection speed. M-Lab conducts the test and publicly publishes all test results to promote internet research.</p>
+				<a href="https://projectstream.google.com/speedtest" target="_blank"><button>Visit</button></a>
+			</div>
+		</div>
+		<div class="card">
+			<div class="image">
+				<img src="/images/speakeasy.png">
+			</div>
+			<div class="title">
+				<h1>FUSION CONNECT</h1>
+			</div>
+			<div class="des">
+				<p>Fusion Connect’s Speed Test Plus checks broadband speed and is also an internet quality test.It give you more, leveraging decades of experience to formulate new performance quality benchmarks</p>
+				<a href="https://www.speakeasy.net/speedtest/" target="_blank"><button>Visit</button></a>
+			</div>
+		</div>
+		<div class="card">
+			<div class="image">
+				<img src="/images/century.png">
+			</div>
+			<div class="title">
+				<h1>CENTURY LINK</h1>
+			</div>
+			<div class="des">
+				<p>With the CenturyLink speed test, we also received results in the 150 Mbps range, and we believe these test results are quite accurate. On average, CenturyLink's speed test takes 3.5 seconds to load and 36.5 seconds to run, which is pretty typical for internet speed tests.</p>
+					<a href="https://www.centurylink.com/home/help/internet/internet-speed-test.html" target="_blank"><button>Visit</button></a>
+			</div>
+		</div>   
+	</div>
+	<div class="container">
+		<h2>Click here to register network details about your location.</h2>
+		<a href="network.html" target="_blank"><button class="bttn bttn1">Register</button></a>
+	</div>
+</div>
+	<footer>
+		<div class="main-content">
+			<div class="left box">
+				<h2>About Us</h2>
+				<div class="content">
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed accusamus maxime et totam nihil eaque eum corporis aperiam? Officia fugiat tenetur veritatis amet labore aut dolores, modi magni ipsum odit.</p>
+					<div class="social">
+						<a href="#"><span class="fab fa-facebook-f"></span></a>
+						<a href="#"><span class="fab fa-twitter"></span></a>
+						<a href="#"><span class="fab fa-instagram"></span></a>
+						<a href="#"><span class="fab fa-youtube"></span></a>
+					</div>
+				</div>
+			</div>
+			<div class="center box">
+				<h2>Address</h2>
+				<div class="content">
+					<div class="place">
+						<span class="fas fa-map-marker-alt"></span>
+						<span class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta sunt quod id optio impedit molestias veniam amet vitae. Enim in assumenda, minima aspernatur laborum ipsa accusamus consequatur dolor tempora aut.</span>
+					</div>
+					<div class="phone">
+						<span class="fas fa-phone-alt"></span>
+						<span class="text">+91-9876543210</span>
+					</div>
+					<div class="email">
+						<span class="fas fa-envelope"></span>
+						<span class="text">abc@example.com</span>
+					</div>
+				</div>
+			</div>
+			<div class="right box">
+				<h2>Contact Us</h2>
+				<div class="content">
+					<form action="https://formspree.io/f/mzbywjze" method="POST">
+						<div class="email">
+							<div class="text">Email *</div>
+							<input class="footer-text" type="email" required>
+						</div>
+						<div class="msg">
+							<div class="text">Message *</div>
+							<textarea class="footer-text" rows="4" cols="20" required></textarea>
+						</div>
+						<div class="btn">
+							<button type="submit">Send</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
