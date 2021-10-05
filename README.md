@@ -1,6 +1,6 @@
 # TEL-FINET
 <p align="center">
-    <img src=images/a.jpeg height=200>
+    <img src=/images/a.jpeg height=200>
 </p>
 
 
